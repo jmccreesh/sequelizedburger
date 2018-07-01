@@ -7,7 +7,7 @@ if (process.env.JAWSDB_URL) {
     var connection = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "Liberty3",
+        password: "",
         database: "burgers_db"
     });
 }
